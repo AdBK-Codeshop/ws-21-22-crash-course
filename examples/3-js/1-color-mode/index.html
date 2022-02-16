@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body.light {
+        color: #000000;
+        background-color: #ffffff;
+      }
+      body.dark {
+        color: #ffffff;
+        background-color: #000000;
+      }
+    </style>
+  </head>
+  <body class="dark">
+    <button id="switch">On</button>
+    <!-- Start JS -->
+    <script type="text/javascript" defer>
+      var isOn = false;
+      var switchBtn = document.getElementById("switch");
+      var body = document.body;
+      switchBtn.addEventListener("click", function () {
+        if (isOn) {
+          body.classList.remove("light");
+          body.classList.add("dark");
+          switchBtn.innerHTML = "On";
+          isOn = false;
+        } else {
+          body.classList.remove("dark");
+          body.classList.add("light");
+          switchBtn.innerHTML = "Off";
+          isOn = true;
+        }
+      });
+    </script>
+    <!-- End JS -->
+  </body>
+</html>
