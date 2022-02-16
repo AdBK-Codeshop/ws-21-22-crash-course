@@ -1,0 +1,25 @@
+.box {
+  margin: 1rem;
+  padding: 24px;
+  text-align: center;
+  color: white;
+}
+
+.box-blue {
+  background-color: rgb(0, 0, 255);
+  /* 
+   Alternative color modes:
+   hsl(240, 100%, 50%); 
+   #0000ff
+   ...
+  */
+}
+
+.box-blue-rgba {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.box-opacity {
+  background-color: rgb(0, 0, 255);
+  opacity: 0.5;
+}

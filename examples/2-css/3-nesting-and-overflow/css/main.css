@@ -1,0 +1,17 @@
+.box {
+  border: 4px solid blueviolet;
+  background-color: rgb(33, 33, 33);
+  color: white;
+  margin: 1rem;
+}
+
+.box-max-height {
+  max-height: 31px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-auto {
+  overflow: auto;
+}
