@@ -1,4 +1,4 @@
-# Crash Course
+# Web Development Basics
 
 ## Prequisits
 
