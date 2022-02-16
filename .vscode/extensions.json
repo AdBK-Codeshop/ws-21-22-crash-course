@@ -1,4 +1,4 @@
 {
   "recommendations": ["ritwickdey.LiveServer", "esbenp.prettier-vscode"],
-  "unwantedRecommendations": []
+  "unwantedRecommendations": ["stylelint.vscode-stylelint"]
 }
